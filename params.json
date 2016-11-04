@@ -1,0 +1,6 @@
+{
+  "name": "Mozvr-site",
+  "tagline": "Mozilla VR site",
+  "body": "# Mozilla VR Site\r\n\r\nSource for Mozilla VR site: __http://mozvr.com/__\r\n\r\n\r\n## Installation\r\n\r\n1. Clone the repo:\r\n\r\n    ```js\r\n    git clone git@github.com:MozVR/mozvr-site.git && cd mozvr-site\r\n    ```\r\n\r\n2. Install the Node dependencies:\r\n\r\n    ```js\r\n    npm install\r\n    ```\r\n\r\n## Development\r\n\r\nServe the site from the simple server:\r\n\r\n    npm run dev\r\n\r\nThen launch the site from your favorite browser:\r\n\r\n[__http://localhost:9090/__](http://localhost:9090/)\r\n\r\nIf you'd like, you can serve the site from a different port:\r\n\r\n    PORT=8000 npm run dev\r\n\r\nTo push your changes to the repo:\r\n\r\n    git pull --rebase\r\n    git push\r\n\r\n\r\n## Deployment\r\n\r\nTo deploy the site to GitHub Pages:\r\n\r\n    npm run deploy\r\n\r\nTo deploy the site to __your__ GitHub Pages (e.g., https://your_username.github.io/mozvr-site/):\r\n\r\n    npm run deploy your_username\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
